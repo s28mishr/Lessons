@@ -1,13 +1,25 @@
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-CORPUS = [] ## TODO: Make sample corpus
-y = []      
+CORPUS = [
+    "buy pills",
+    "i love cats",
+    "do you want free money",
+    "i love dogs too"
+] 
+y = [1, 0, 1, 0]
 
 vectorizer = CountVectorizer()
-X = vectorizer.fit_transform(CORPUS) ## TODO: Break down fit and transform stages
+vectorizer.fit(CORPUS)
+
+X = vectorizer.transform(CORPUS)
 
 classifier = MultinomialNB() 
 classifier.fit(X, y)
 
-print(classifier.predict([])) ## TODO: Create a simple test message
+tests = [
+    "Dear sir, you have won one million money",
+    "Lucy, I really love your pet cat"
+]
+test_vectors = vectorizer.transform(tests)
+print(classifier.predict(test_vectors))
