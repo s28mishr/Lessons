@@ -1,13 +1,25 @@
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-CORPUS = [] ## Put email messages here
-y = []      ## Tag emails as spam/not-spam
+CORPUS = [
+    "buy pills",
+    "i love cats",
+    "do you want free money",
+    "i love dogs too"
+] 
+y = [1, 0, 1, 0]
 
 vectorizer = CountVectorizer()
-X = vectorizer.fit_transform(CORPUS)
+vectorizer.fit(CORPUS)
+
+X = vectorizer.transform(CORPUS)
 
 classifier = MultinomialNB() 
 classifier.fit(X, y)
 
-print(classifier.predict([])) ## Use the machine learning model here!
+tests = [
+    "Dear sir, you have won one million money",
+    "Lucy, I really love your pet cat"
+]
+test_vectors = vectorizer.transform(tests)
+print(classifier.predict(test_vectors))
