@@ -18,7 +18,7 @@ Build a complete 2D game and engine _from scratch_ using standard web technologi
 | 1        | 5      | May 30, 2018  | Get an input-enabled animated sprite on the screen |
 | 2        | 6      | June 6, 2018  | Display a level and allow the player to interact with it |
 | -        | 7      | June 13, 2018 | Midterms (no planned work)                            |
-| 3        | 8      | June 20, 2018 | Refactor common code into an engine |
+| 3        | 8      | June 20, 2018 | Dig deeper into inner workings of sprites and the tilemap |
 | 4        | 9      | June 27, 2018 | Add enemies and a combat system |
 | 5        | 10     | July 4, 2018  | Add sound, shops, and powerups |
 | 6        | 11     | July 11, 2018 | Polish the game with particles, screenshake, and more |
