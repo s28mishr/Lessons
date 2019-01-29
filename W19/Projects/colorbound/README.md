@@ -14,13 +14,11 @@ Build a complete 2D game and engine _from scratch_ using standard web technologi
 ## Syllabus
 | Lesson # | Week # | Date          | Description                                           |
 | -------- | ------ | ------------- | ------------------------------------------------------|
-| -        | 4      | May 23, 2018  | Introductions & sign-ups                              |
-| 1        | 5      | May 30, 2018  | Get an input-enabled animated sprite on the screen |
-| 2        | 6      | June 6, 2018  | Display a level and allow the player to interact with it |
-| -        | 7      | June 13, 2018 | Midterms (no planned work)                            |
-| 3        | 8      | June 20, 2018 | Dig deeper into inner workings of sprites and the tilemap |
-| 4        | 9      | June 27, 2018 | Add enemies and a combat system |
-| 5        | 10     | July 4, 2018  | Add sound, shops, and powerups |
-| 6        | 11     | July 11, 2018 | Polish the game with particles, screenshake, and more |
-| 7        | 12     | July 18, 2018 | Optimize the game |
-| -        | 13     | July 25, 2018 | End of Term Event!                             |
+| 1        | 5      | Jan 29 | Get an input-enabled animated sprite on the screen |
+| 2        | 6      | Feb 5 | Display a level and allow the player to interact with it |
+| -        | 7      | Feb 12 | Midterms (no planned work) |
+| 3        | 8      | Feb 19 | Reading Week Break: Special Meet-Up activity |
+| 4        | 9      | Feb 26 | Add enemies and a combat system |
+| 5        | 10     | Mar 5 | Add gears and powerups |
+| 6        | 11     | Mar 12 | Polish the game with particles, screenshake, and more |
+| -        | 12     | Mar 19 | End of Term event! |
