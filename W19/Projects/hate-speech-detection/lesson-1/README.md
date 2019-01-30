@@ -24,4 +24,6 @@ We will be using [Repl.it](https://repl.it) to write Python code and develop our
 
 ## Content
 
-Slideshow will be available here shortly. Also see spam_detection.py as a simple example of developing a machine learning model.
+- [Slideshow with today's lesson](https://docs.google.com/presentation/d/1twL_NxQkG5bkv1X96Y3FGLlv8zxSdrmpTdd_TBbCvb0/edit?usp=sharing)
+
+Also see spam_detection.py as a simple example of developing a machine learning model.
